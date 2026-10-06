@@ -8,6 +8,10 @@ def main():
         user_input = input()
         if user_input == "exit":
             break
+
+        if user_input == "echo":
+            print(user_input)
+
         print(f"{user_input}: command not found")
         continue
 
