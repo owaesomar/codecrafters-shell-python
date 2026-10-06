@@ -9,8 +9,9 @@ def main():
         if user_input == "exit":
             break
 
-        if user_input == "echo":
-            print(user_input)
+        if "echo" in user_input:
+            new = user_input[4:]
+            print(new)
             break
 
         else:
