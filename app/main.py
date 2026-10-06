@@ -10,12 +10,12 @@ def main():
         if user_input == "exit":
             break
 
-        elif user_input.startswith("echo "):
+        if user_input.startswith("echo "):
             print(user_input[5:])
         elif user_input.startswith("type echo"):
             print(f"echo is a shell builtin")
         elif user_input.startswith("type exit"):
-            print(f"echo is a shell builtin")
+            print(f"exit is a shell builtin")
         elif user_input.startswith("type type"):
             print(f"type is a shell builtin")
         elif user_input.startswith("type invalid command"):
