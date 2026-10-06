@@ -11,6 +11,7 @@ def main():
 
         if user_input == "echo":
             print(user_input)
+            break
 
         print(f"{user_input}: command not found")
         continue
