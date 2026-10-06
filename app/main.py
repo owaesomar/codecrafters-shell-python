@@ -11,7 +11,7 @@ def main():
 
         if "echo" in user_input:
             new = user_input[4:]
-            new.strip()
+            new2 = new.strip()
             print(new)
             break
 
