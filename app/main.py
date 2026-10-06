@@ -12,7 +12,7 @@ def main():
         if "echo" in user_input:
             new = user_input[4:]
             new2 = new.strip()
-            print(new)
+            print(new2)
             break
 
         else:
