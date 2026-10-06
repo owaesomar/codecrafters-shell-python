@@ -9,7 +9,7 @@ def main():
         if user_input == "exit":
             break
 
-        if "echo" in user_input:
+        if user_input.startswith("echo "):
             print(user_input[5:])
             break
 
