@@ -13,7 +13,8 @@ def main():
             print(user_input)
             break
 
-        print(f"{user_input}: command not found")
+        else:
+            print(f"{user_input}: command not found")
         continue
 
 if __name__ == "__main__":
