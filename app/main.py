@@ -10,8 +10,7 @@ def main():
             break
 
         if "echo" in user_input:
-            new = user_input[5:]
-            print(new)
+            print(user_input[5:])
             break
 
         else:
