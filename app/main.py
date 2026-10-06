@@ -15,7 +15,6 @@ def main():
 
         else:
             print(f"{user_input}: command not found")
-        continue
 
 if __name__ == "__main__":
     main()
