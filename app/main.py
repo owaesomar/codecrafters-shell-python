@@ -18,8 +18,9 @@ def main():
             print(f"exit is a shell builtin")
         elif user_input.startswith("type type"):
             print(f"type is a shell builtin")
-        elif user_input.startswith("type invalid command"):
-            print(f"invalid_command: not found")
+        elif user_input.startswith("type "):
+            new = user_input[:5]
+            print(f"{new}: not found")
         else:
             print(f"{user_input}: command not found")
 
