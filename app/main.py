@@ -11,7 +11,6 @@ def main():
 
         elif user_input.startswith("echo "):
             print(user_input[5:])
-            break
 
         else:
             print(f"{user_input}: command not found")
